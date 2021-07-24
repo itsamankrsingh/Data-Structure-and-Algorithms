@@ -28,7 +28,7 @@ signed main()
     cin >> nodes >> edges;
     vvi adjacencyMatrix(nodes + 1, vi(nodes + 1, 0));
 
-    rep(i, 0, edges)
+    rep(i, 1, edges)
     {
         int x, y;
         cin >> x >> y;
@@ -61,7 +61,7 @@ signed main()
     cout << "\n\n\n";
     cin >> nodes >> edges;
 
-    rep(i, 0, edges)
+    rep(i, 1, edges)
     {
         int x, y;
         cin >> x >> y;
