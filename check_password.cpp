@@ -8,6 +8,7 @@ void inputOutput()
     freopen("output.txt", "w", stdout);
 #endif
 }
+
 bool checkPassword(char c[], int size, int min)
 {
     if (size < min)
