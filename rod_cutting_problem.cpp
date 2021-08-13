@@ -50,14 +50,15 @@ int cutRod(int price[], int n)
         }
     }
 
-    /*for (int i = 0; i < n + 1; i++)
+    for (int i = 0; i < n + 1; i++)
     {
+        cout << "i->" << i << " ";
         for (int j = 0; j < n + 1; j++)
         {
             cout << t[i][j] << " ";
         }
         cout << endl;
-    }*/
+    }
     return t[n][n];
 }
 
